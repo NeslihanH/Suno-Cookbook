@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Suno Cookbook",
+    "tagline": "Um guia de campo para prompts, tags e receitas do Suno",
+    "search": "Buscar tags, gêneros, receitas...",
+    "noResults": "Nenhum resultado encontrado",
+    "noResultsHint": "Tente outra palavra ou limpe a busca.",
+    "clear": "Limpar",
+    "results_one": "{{count}} resultado",
+    "results_other": "{{count}} resultados",
+    "allCategories": "Tudo"
+  },
+  "nav": {
+    "structure": "Tags de estrutura",
+    "vocal": "Vocais",
+    "instrument": "Instrumentos",
+    "production": "Produção",
+    "genre": "Gêneros e estilos",
+    "mood": "Clima",
+    "recipe": "Receitas",
+    "practice": "Boas práticas",
+    "platform": "Modelos e recursos"
+  },
+  "badge": {
+    "official": "Oficial",
+    "community": "Comunidade",
+    "beta": "Beta",
+    "free": "Grátis",
+    "paid": "Pago"
+  },
+  "card": {
+    "placement": "Posição",
+    "example": "Exemplo",
+    "styleBox": "Caixa de estilo",
+    "lyrics": "Letra",
+    "goal": "Objetivo",
+    "notes": "Por que funciona",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "copyStyle": "Copiar estilo",
+    "copyLyrics": "Copiar letra",
+    "copyTag": "Copiar tag"
+  },
+  "platform": {
+    "models": "Modelos",
+    "features": "Recursos",
+    "plans": "Planos",
+    "limits": "Limites e regras",
+    "commercialYes": "Uso comercial",
+    "commercialNo": "Sem uso comercial"
+  },
+  "about": {
+    "notice": "Um projeto não oficial, de código aberto e sem fins lucrativos, feito por um desenvolvedor que ama a Suno AI. Não é afiliado nem endossado pela Suno."
+  },
+  "footer": {
+    "disclaimer": "Referência não oficial. O comportamento das tags do Suno muda; confirme no app atual. Não afiliado à Suno.",
+    "trademark": "Suno é uma marca registrada de seu respectivo proprietário. Publicado sob a licença MIT.",
+    "verified": "Conteúdo compilado em {{date}}"
+  },
+  "theme": {
+    "toggleToDark": "Modo escuro",
+    "toggleToLight": "Modo claro"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Suno Cookbook",
+    "tagline": "Una guía de campo para prompts, tags y recetas de Suno",
+    "search": "Buscar tags, géneros, recetas...",
+    "noResults": "No se encontraron coincidencias",
+    "noResultsHint": "Prueba con otra palabra o borra la búsqueda.",
+    "clear": "Borrar",
+    "results_one": "{{count}} resultado",
+    "results_other": "{{count}} resultados",
+    "allCategories": "Todo"
+  },
+  "nav": {
+    "structure": "Tags de estructura",
+    "vocal": "Voces",
+    "instrument": "Instrumentos",
+    "production": "Producción",
+    "genre": "Géneros y estilos",
+    "mood": "Ambiente",
+    "recipe": "Recetas",
+    "practice": "Buenas prácticas",
+    "platform": "Modelos y funciones"
+  },
+  "badge": {
+    "official": "Oficial",
+    "community": "Comunidad",
+    "beta": "Beta",
+    "free": "Gratis",
+    "paid": "De pago"
+  },
+  "card": {
+    "placement": "Ubicación",
+    "example": "Ejemplo",
+    "styleBox": "Caja de estilo",
+    "lyrics": "Letra",
+    "goal": "Objetivo",
+    "notes": "Por qué funciona",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "copyStyle": "Copiar estilo",
+    "copyLyrics": "Copiar letra",
+    "copyTag": "Copiar tag"
+  },
+  "platform": {
+    "models": "Modelos",
+    "features": "Funciones",
+    "plans": "Planes",
+    "limits": "Límites y reglas",
+    "commercialYes": "Uso comercial",
+    "commercialNo": "Sin uso comercial"
+  },
+  "about": {
+    "notice": "Un proyecto no oficial, de código abierto y sin fines de lucro, creado por un desarrollador que ama Suno AI. No está afiliado ni respaldado por Suno."
+  },
+  "footer": {
+    "disclaimer": "Referencia no oficial. El comportamiento de los tags de Suno cambia; verifícalo en la app actual. No afiliado a Suno.",
+    "trademark": "Suno es una marca comercial de su respectivo propietario. Publicado bajo la licencia MIT.",
+    "verified": "Contenido compilado en {{date}}"
+  },
+  "theme": {
+    "toggleToDark": "Modo oscuro",
+    "toggleToLight": "Modo claro"
+  }
+}

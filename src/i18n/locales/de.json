@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Suno Cookbook",
+    "tagline": "Ein Praxisleitfaden für Suno-Prompts, -Tags und -Rezepte",
+    "search": "Tags, Genres, Rezepte suchen...",
+    "noResults": "Keine Treffer gefunden",
+    "noResultsHint": "Versuche ein anderes Stichwort oder leere die Suche.",
+    "clear": "Leeren",
+    "results_one": "{{count}} Treffer",
+    "results_other": "{{count}} Treffer",
+    "allCategories": "Alle"
+  },
+  "nav": {
+    "structure": "Struktur-Tags",
+    "vocal": "Gesang",
+    "instrument": "Instrumente",
+    "production": "Produktion",
+    "genre": "Genres und Stile",
+    "mood": "Stimmung",
+    "recipe": "Rezepte",
+    "practice": "Best Practices",
+    "platform": "Modelle und Funktionen"
+  },
+  "badge": {
+    "official": "Offiziell",
+    "community": "Community",
+    "beta": "Beta",
+    "free": "Kostenlos",
+    "paid": "Bezahlt"
+  },
+  "card": {
+    "placement": "Platzierung",
+    "example": "Beispiel",
+    "styleBox": "Stil-Feld",
+    "lyrics": "Songtext",
+    "goal": "Ziel",
+    "notes": "Warum es funktioniert",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "copyStyle": "Stil kopieren",
+    "copyLyrics": "Songtext kopieren",
+    "copyTag": "Tag kopieren"
+  },
+  "platform": {
+    "models": "Modelle",
+    "features": "Funktionen",
+    "plans": "Tarife",
+    "limits": "Limits und Regeln",
+    "commercialYes": "Kommerzielle Nutzung",
+    "commercialNo": "Keine kommerzielle Nutzung"
+  },
+  "about": {
+    "notice": "Ein inoffizielles, quelloffenes und gemeinnütziges Projekt von einem Entwickler, der Suno AI liebt. Nicht mit Suno verbunden oder von Suno unterstützt."
+  },
+  "footer": {
+    "disclaimer": "Inoffizielle Referenz. Das Verhalten der Suno-Tags ändert sich; prüfe es in der aktuellen App. Nicht mit Suno verbunden.",
+    "trademark": "Suno ist eine Marke des jeweiligen Eigentümers. Veröffentlicht unter der MIT-Lizenz.",
+    "verified": "Inhalt zusammengestellt {{date}}"
+  },
+  "theme": {
+    "toggleToDark": "Dunkler Modus",
+    "toggleToLight": "Heller Modus"
+  }
+}
