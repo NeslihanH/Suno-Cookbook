@@ -1,43 +1,23 @@
-# Suno Cookbook
+# 🎵 Suno Cookbook
 
-A searchable, bilingual (English / Turkish) field guide to Suno AI music
-prompting: meta-tags, song-structure tags, vocal and instrument tags, genres,
-moods, production descriptors, ready-to-copy prompt recipes, best practices, and
-platform facts (models, features, plans, limits).
+> A field guide to Suno prompts, tags and recipes.
 
-Browse by category or search across everything, then copy any tag, style prompt
-or lyric skeleton with one click. Every entry is marked Official (documented by
-Suno) or Community (well-attested convention).
+An unofficial, open-source, non-profit project — not affiliated with or endorsed by Suno.
 
-This is an unofficial reference and is not affiliated with Suno. Suno tag
-behavior evolves; verify against the current app.
+## What's inside
 
-## Stack
+- **Structure Tags** — [Intro], [Verse], [Chorus] and more with placement guides
+- **Vocals & Instruments** — tags that shape the sound
+- **Genres & Styles** — 114 genre tags to explore
+- **Moods** — set the emotional tone
+- **Recipes** — ready-to-use prompt combinations
+- **Best Practices** — tips for consistent results
+- **Models & Features** — what each Suno model supports
 
-- Vite + React 19 + TypeScript
-- i18next / react-i18next for localization (EN + TR)
-- No backend, no external API - a fully static client-only SPA
+Available in 🇬🇧 EN · 🇹🇷 TR · 🇪🇸 ES · 🇵🇹 PT · 🇩🇪 DE
 
-## Develop
+## 📬 Contact
 
+Found a bug, have a suggestion, or want to contribute?
 
-```
-npm install
-npm run dev       # start the dev server
-npm run build     # type-check + production build
-npm run preview   # preview the production build
-```
-
-## Project layout
-
-- `src/data` - content schema (`types.ts`) and the datasets, one file per
-  category, aggregated in `content.ts`. Prose fields are bilingual `{ en, tr }`.
-- `src/i18n` - i18n config and UI locale files (`locales/en.json`, `tr.json`).
-- `src/components` - Header, category navigation, cards, platform view.
-- `src/hooks` - localization picker and theme toggle.
-
-## Content
-
-Compiled from official Suno sources (suno.com, help.suno.com, release notes)
-and reputable community guides. Figures Suno does not officially publish (some
-audio specs, character limits) are labeled Community and worded as approximate.
+[![Email](https://img.shields.io/badge/Email-neslihan.hamali@gmail.com-blue?style=flat&logo=gmail)](mailto:neslihan.hamali@gmail.com)
