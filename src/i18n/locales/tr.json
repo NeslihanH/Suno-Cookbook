@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "Suno Cookbook",
+    "tagline": "Suno promptları, tag'leri ve tarifleri için saha rehberi",
+    "search": "Tag, tür, tarif ara...",
+    "noResults": "Sonuç bulunamadı",
+    "noResultsHint": "Farklı bir kelime deneyin veya aramayı temizleyin.",
+    "clear": "Temizle",
+    "results_one": "{{count}} sonuç",
+    "results_other": "{{count}} sonuç",
+    "allCategories": "Tümü"
+  },
+  "nav": {
+    "structure": "Yapı Tag'leri",
+    "vocal": "Vokaller",
+    "instrument": "Enstrümanlar",
+    "production": "Prodüksiyon",
+    "genre": "Türler ve Tarzlar",
+    "mood": "Ruh Hali",
+    "recipe": "Tarifler",
+    "practice": "En İyi Uygulamalar",
+    "platform": "Modeller ve Özellikler"
+  },
+  "badge": {
+    "official": "Resmi",
+    "community": "Topluluk",
+    "beta": "Beta",
+    "free": "Ücretsiz",
+    "paid": "Ücretli"
+  },
+  "card": {
+    "placement": "Konum",
+    "example": "Örnek",
+    "styleBox": "Stil kutusu",
+    "lyrics": "Sözler",
+    "goal": "Amaç",
+    "notes": "Neden işe yarar",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı",
+    "copyStyle": "Stili kopyala",
+    "copyLyrics": "Sözleri kopyala",
+    "copyTag": "Tag'i kopyala"
+  },
+  "platform": {
+    "models": "Modeller",
+    "features": "Özellikler",
+    "plans": "Planlar",
+    "limits": "Limitler ve Kurallar",
+    "commercialYes": "Ticari kullanım",
+    "commercialNo": "Ticari kullanım yok"
+  },
+  "about": {
+    "notice": "Suno AI'yı seven bir yazılımcının hazırladığı resmi olmayan, açık kaynak kodlu, kâr amacı gütmeyen bir proje. Suno ile bağlantılı veya onun tarafından onaylanmış değildir."
+  },
+  "footer": {
+    "disclaimer": "Resmi olmayan referans. Suno tag davranışları değişebilir; güncel uygulamayla doğrulayın. Suno ile bağlantılı değildir.",
+    "trademark": "Suno, ilgili sahibinin ticari markasıdır. MIT Lisansı altında yayımlanmıştır.",
+    "verified": "İçerik {{date}} tarihinde derlendi"
+  },
+  "theme": {
+    "toggleToDark": "Koyu tema",
+    "toggleToLight": "Açık tema"
+  }
+}
