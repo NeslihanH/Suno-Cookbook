@@ -8,4 +8,12 @@ import react from "@vitejs/plugin-react";
 export default defineConfig(({ command }) => ({
   base: command === "build" ? process.env.VITE_BASE ?? "/Suno-Cookbook/" : "/",
   plugins: [react()],
+  server: {
+    port: 5174,
+    strictPort: true,
+  },
+  preview: {
+    port: 5174,
+    strictPort: true,
+  },
 }));
