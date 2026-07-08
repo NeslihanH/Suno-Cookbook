@@ -337,4 +337,20 @@ export const moodTags: TagItem[] = [
     example: "angsty, distorted guitars, raw vocal, mid-tempo",
     official: false,
   },
+  {
+    id: "powerful",
+    category: "mood",
+    token: "Powerful",
+    name: "Powerful",
+    family: "Mood",
+    description: {
+      en: "Bold, commanding force, whether in a soaring vocal belt or a wall of sound.",
+      tr: "Yükselen bir vokal veya duvar gibi bir ses kütlesinde olsun, cesur ve hükmedici bir güç.",
+      es: "Fuerza audaz y contundente, ya sea en una voz que se eleva o en una pared de sonido.",
+      pt: "Força ousada e contundente, seja em um vocal que se eleva ou em uma parede de som.",
+      de: "Kühne, gebieterische Kraft, ob in einem aufsteigenden Vocal-Belt oder einer Klangwand.",
+    },
+    example: "powerful, belted vocals, driving drums, big chorus",
+    official: false,
+  },
 ];

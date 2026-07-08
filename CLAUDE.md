@@ -66,10 +66,12 @@ npm run preview  # serve the production build
 
 - M0 scaffold + i18n + docs: DONE.
 - M1 content dataset (research + bilingual data files): DONE.
-  ~40 structure, ~44 vocal, ~40 instrument, ~118 genre, ~21 mood, ~25 production
+  ~40 structure, ~44 vocal, ~83 instrument, ~118 genre, ~22 mood, ~25 production
   tags; 15 recipes; 14 best practices; platform facts (7 models, 11 features,
   3 plans, limits + commercial).
 - M2 UI (browse, search, copy, language switch, theme): DONE.
+- M2.1 instrument playing-technique coverage (guitar/bass/drum/keys/strings/brass
+  technique subgroups) + "Powerful" mood: DONE.
 - M3 polish + deploy: IN PROGRESS.
 
 ## Next step
