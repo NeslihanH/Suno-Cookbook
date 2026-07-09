@@ -8,7 +8,8 @@ A single-page reference app (SPA) for Suno AI music prompting: a searchable,
 categorized library of meta-tags, song-structure tags, vocal/instrument tags,
 genres, moods, production descriptors, ready-to-copy prompt recipes, best
 practices, and platform facts (models, features, plans, limits). Browse + copy.
-No prompt builder (reference only). Bilingual: English + Turkish.
+No prompt builder (reference only). Available in 5 locales: English, Turkish,
+Spanish, Portuguese, German.
 
 Not affiliated with Suno. Content is compiled from official Suno docs
 (suno.com, help.suno.com, release notes) plus reputable community guides, and is
@@ -17,10 +18,13 @@ marked Official vs Community per entry.
 ## Hard rules
 
 - Chat in Turkish; all shipped code/identifiers/comments/filenames in English.
-- UI ships in two locales: English (`en`) and Turkish (`tr`). The Turkish locale
-  and Turkish content translations DO use proper Turkish diacritics - that is the
-  intended, correct behavior (the English-only rule applies to code, not to the
-  deliberate TR locale). Suno tag literals (e.g. `[Chorus]`), prompt examples,
+- UI ships in 5 locales: English (`en`), Turkish (`tr`), Spanish (`es`),
+  Portuguese (`pt`), German (`de`). `en` and `tr` are required on every
+  `Localized` field; `es`/`pt`/`de` are optional and fall back to English, but
+  existing content fills all five for consistency - match that when adding
+  entries. Non-English locale content DOES use proper native diacritics - that
+  is the intended, correct behavior (the English-only rule applies to code,
+  not to locale content). Suno tag literals (e.g. `[Chorus]`), prompt examples,
   `styleBox` and `lyricsSkeleton` stay in English everywhere (Suno expects
   English tags).
 - No em-dash in user-facing strings.
@@ -42,24 +46,25 @@ src/
     structure.ts vocals.ts instruments.ts genres.ts moods.ts production.ts
     recipes.ts bestPractices.ts platform.ts
     content.ts     aggregator: categories, tagItems, exports, totals
-  i18n/            i18n config + locales/en.json + locales/tr.json
-  hooks/           useLocalized (en/tr picker), useTheme (light/dark)
+  i18n/            i18n config + locales/{en,tr,es,pt,de}.json
+  hooks/           useLocalized (5-locale picker, falls back to en), useTheme (light/dark)
   components/      Header, CategoryNav, TagCard, RecipeCard, PracticeCard,
                    PlatformView, CopyButton, Badge
   App.tsx          state, search/filter, grouping, layout
   main.tsx index.css
 ```
 
-Content datasets are bilingual: prose fields are `{ en, tr }` (Localized);
+Content datasets use the `Localized` type for prose fields: `en`/`tr` required,
+`es`/`pt`/`de` optional (fall back to English) but filled in practice;
 tokens/examples/styleBox/lyricsSkeleton are plain English strings.
 
 ## How to run
 
 ```
 npm install
-npm run dev      # local dev server
+npm run dev      # local dev server (http://localhost:5174, pinned in vite.config.ts)
 npm run build    # tsc -b && vite build  (must pass before commit)
-npm run preview  # serve the production build
+npm run preview  # serve the production build (also port 5174)
 ```
 
 ## Status
